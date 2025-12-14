@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+slm_env/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Outputs
+qlora_tinyllama/
+tenetx_tinyllama_lora/
+tenetx_tinyllama_lora_research/
+*.pth
+*.bin
+*.safetensors
+
+# Large datasets
+*.toon
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
